@@ -1,0 +1,149 @@
+.body_m{
+    font-family: Arial, sans-serif;
+    background-color: #cdeac0;
+    margin: 0;
+   }
+   
+   .container_m {
+    margin: 4% auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+   }
+   
+   /* h1 {
+    text-align: center;
+    margin: 0;
+    color: #555;
+   }
+    */
+   form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+   }
+   
+   form input[type="text"],
+   form input[type="email"],
+   form input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    color: #555;
+    font-size: 16px;
+   }
+   
+   form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+   }
+   
+   form button[type="submit"]:hover {
+    background-color: #4cae4c;
+   }
+     
+
+  
+  .logo__img{
+      width: 80px;
+  }
+  
+  .logo__text{
+      padding-top: 2%;
+      padding-left: 2%;
+  }
+  
+  .menu_small_icon {
+    display: none;
+  }
+  
+  .menu-small {
+    display: none;
+    height: 2em;
+  }
+  
+  .menu_small_item {
+    display: none;
+  }
+  
+  .stick {
+    width: 80%;
+    height: 5px;
+    background: black;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 1%;
+    overflow: auto;
+    color: #ddd;
+    background-color: #5cb85c;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #ddd;
+  }
+
+
+footer{
+  margin: 0 auto;
+  text-align:center;
+  color: white;
+  width: 100%;
+  height: auto;
+  padding-top: 1%;
+  margin-bottom:1%;
+}
+footer a{
+ font-size: 100%;
+ color: c;
+ margin-left: 2%;
+
+}
+footer nav a:hover{
+ border-bottom: 2px solid #858484;
+}
+.logo_text{
+ color: #333;
+
+}
+.social img{
+ margin-left: 2%;
+ width: 5%;
+}
+.social img:hover{
+ background: #999999;
+ border-radius: 30%;
+}
+footer p{
+ color: #858484;
+}
